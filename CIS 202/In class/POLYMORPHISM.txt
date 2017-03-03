@@ -1,0 +1,5 @@
+POLYMORPHISM
+- If a method asks for a super type, you can pass it any subtype.
+
+treating objects as if their types were their parent type.
+

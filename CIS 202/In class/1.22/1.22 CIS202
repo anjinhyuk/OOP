@@ -1,0 +1,40 @@
+import javax.swing.JApplet;
+import java.awt.*;
+
+public class Castle extends JApplet {
+
+	@Override
+	public void paint(Graphics g) {
+		
+		final double PI = 3.14159;//use double for fractional numbers
+		char iopa = 'k';
+			//final means the value cannot change
+		iopa = '}';
+		iopa = ' ';
+		iopa = '@';
+		boolean paused = true;
+		String name = "Irwin";
+		
+		//int sum = x + 25;
+		//int sum2 = x + paused;
+		String greeting = "Hello, my name is ";
+		
+		double alex = 10;
+		double william = 3;
+		//TYPECASTING : tell compiler  to temporarily convert
+		//a number from on e type to another
+		double kari = alex / william;
+		int wagner = (int)kari ;
+		System.out.println (wagner);
+		int r = 10 % 3;
+		System.out.println(r);
+		
+		
+		//draw a sky background
+		g.setColor(new Color(80,224,184));
+		g.fillRect(0,0,800,800);
+	
+			g.drawString(greeting + name + x, 10, 10);
+	}
+
+}

@@ -1,0 +1,25 @@
+1.29 class
+
+Java Naming conventions
+1. RULE Java keywords are all lowercase
+2. Class names start w/ UppercaseThenEveryStartsWithCapital
+3. Variable names start w/ lowercase
+4. Method names are same as veriable - always end w/ paranthases
+5. Constants are in ALL_CAPs
+
+
+Every Loop Needs 3 things
+1. tarting point
+2. conditional to know when to stop
+3.somthing to make 2 go false, event 
+
+for (1,2,3) {
+
+}
+
+
+-If you know how many times you want the loop to run:
+use a FOR loop
+
+-If you're just waiting for some event to happen
+Use a WHILE loop

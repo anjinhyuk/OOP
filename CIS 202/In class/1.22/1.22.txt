@@ -1,0 +1,20 @@
+VARIABLE NAMING RULES
+
+-must start w/ letter (or underscore)
+-after first letter, letters, numbers, dunerscores
+-No spaces or punctuation
+-No Java keywords
+-european & Asian characters Arabic Unicode charater set = OK
+
+eg)ziff forTheWin
+
+VARIABLE NAMING CONVENTIONS
+- starts w/ lowercase letter
+-constants one is ALL-CAPS
+
+char - holds a one character
+string name - a word?
+
+1. Compile-time bugs are better than run-time bugs
+2. convert run-time bugs into compile time whenever possible
+

@@ -1,0 +1,21 @@
+3.31
+It's the rule
+when you implement an interface, you agree to include ALL methods
+defined by that interface.
+
+1. JApplet has NO methods for handling key strows
+2. But KeyListener does!
+3. Make your applet class implement Key listener
+4. Add all methods from interface into your class
+5. addKeyListener(this) to init method
+6. requestfocusinWindow() in paint
+
+What Choices can take place at compile-time?
+Waht choives must wait until run-time?
+
+BINDING
+object -> method
+
+STATIC BINDING : When the method to call is determined at compile time FASTER!
+DYNAMIC BINDING : When the method to call is determined at run-time
+

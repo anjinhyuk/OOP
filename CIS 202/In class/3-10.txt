@@ -1,0 +1,30 @@
+//pretend this is Room.java
+
+
+//this is a "good" implementation
+public void setEastExit (Room r) {
+	eastExit = r;
+	r.westExit = this;
+}
+
+public void setWestExit (Room r) {
+	westExit = r;
+	r.eastExit = this;
+}
+
+//this is a "bad" implementation
+public void setEastExit (Room r) {
+	eastExit = r;
+	r.setWestExit(this);
+}
+
+public void setWestExit (Room r) {
+	westExit = r;
+	r.setEastExit(this);
+}
+
+Genalizatoin / Sepcializatoin
+
+Super class-Sub class
+Base class - Derived class
+Parent class - Child class

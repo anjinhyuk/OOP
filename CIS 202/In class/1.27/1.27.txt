@@ -1,0 +1,10 @@
+1.27
+Variable Scope
+
+You can only use a variable within the same block {} that. it was declared in.
+
+field or instance variable
+ - variable that's declared in the class, not in a method
+
+Local Variable
+ - variable declared inside a method.

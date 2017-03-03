@@ -1,0 +1,43 @@
+4.7
+
+final fields (ie. constants)
+usually should be SHARED
+across all objects of a class.
+
+
+STATIC FIELDS (and methods)
+Belong to the class
+Not to the Object
+
+
+<THEORY>
+- OBJECTS KNOW ABOUT THEIR CLASS
+- THE CLASS DOES NOT KNOW ABOUT INDIVIDUAL OBJECT
+
+
+<PRACTICE>
+- Static methods cannot access non-static fields
+- Static methods cannot call other non-static
+  methods in their class
+
+-variable
+public : available everywhere
+static : shared 
+final : cannot be changed
+
+BOOLEAN OPERATOR 
+num == num (!=, <, >, <=, >=)
+
+object instanceof class name
+-> 99% of time, use subclasses and overriden methods instead of instanceof
+*FINAL 
+Static methods
+int x;
+p.static void foo() {
+x++; }
+
+ans : this is an error
+
+final project4
+19. javax.swing.Timer
+20. 6.3 shortest path algorithm
